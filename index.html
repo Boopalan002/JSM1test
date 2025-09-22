@@ -12,7 +12,7 @@
                 warningCount++;
                 alert("Warning " + warningCount + ": Do not switch apps! Exam will be auto-submitted after 2 warnings.");
                 
-                if (warningCount >= 2) {
+                if (warningCount >= 3) {
                     autoSubmitExam();
                 }
             }
@@ -56,9 +56,9 @@
     </script>
 </head>
 <body>
-    <div >
+    <!-- <div >
         <img style="height:100px;display: block;margin-left: auto;margin-right: auto;width: 50%;"  src="https://res.cloudinary.com/dvtp7qk6u/image/upload/v1740984058/KGM_KGCAS_HEADER_LOGO_qouigb.png" alt="">
-    </div>
+    </div> -->
     <iframe id="examFrame" 
             src="https://forms.gle/EjLTtWaZ6FEetjRU7" 
             width="100%" height="800px" frameborder="0">
